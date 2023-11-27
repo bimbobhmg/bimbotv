@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guie.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>6</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+  -->
+  
+  <channel update="i" site="lineup.net.br" site_id="240441" xmltv_id="1001 Noites">1001 Noites</channel>
+  <channel update="i" site="lineup.net.br" site_id="546639" xmltv_id="3ª Via TV">3ª Via TV</channel>
+  <channel update="i" site="lineup.net.br" site_id="599610" xmltv_id="AlJazeera">AlJazeera</channel>
+  <channel update="i" site="lineup.net.br" site_id="121723" xmltv_id="AmazonSat">AmazonSat</channel>
+  <channel update="i" site="lineup.net.br" site_id="332466" xmltv_id="Bloomberg">Bloomberg</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_2301" xmltv_id="Pai Eterno">Pai Eterno</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_1270" xmltv_id="Campinas/SP  Cartoon Network">Campinas/SP  Cartoon Network</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_1270" xmltv_id="Cartoon Network">Cartoon Network</channel>
+</settings>
